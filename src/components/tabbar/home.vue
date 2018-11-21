@@ -35,6 +35,7 @@ export default {
 </script>
 <style lang="less" scoped>
   .mint-swipe {
+    
     height: 200px;
     .mint-swipe-item {
       img{
