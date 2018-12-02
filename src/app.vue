@@ -1,7 +1,7 @@
 <template>
 <div class="container">
    <!-- 固定在顶部header -->
-  <mt-header fixed title="黑马程序员.qz12期"></mt-header>
+  <mt-header fixed title="我的仿写Vue项目"></mt-header>
 	<transition>
 	<router-view></router-view>
 	</transition>
@@ -29,6 +29,7 @@
 <script>
 
 </script>
+
 
 <style lang="less" scoped>
   .container {

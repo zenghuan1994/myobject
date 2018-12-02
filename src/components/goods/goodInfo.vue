@@ -20,7 +20,7 @@
               <span class="now_price">￥{{goodsinfo.sell_price}}</span>
             </p>
             <p>购买数量：
-              <input-number   :max='10' :min='0' :step='1'></input-number>
+              <numberBox ></numberBox>
             </p>
             <p>
               <mt-button type="primary" size="small">立即购买</mt-button>
@@ -54,6 +54,7 @@
 </template>
 <script>
 import swipe from '../subcomponent/swipe.vue'
+import numberBox from '../subcomponent/goodInfo-numberBox.vue'
 export default {
   data(){
     return {
@@ -90,7 +91,8 @@ export default {
 
   },
   components:{
-    swipe
+    swipe,
+    numberBox
   }
 }
 </script>
